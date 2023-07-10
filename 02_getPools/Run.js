@@ -13,7 +13,7 @@ const {abi:Quoter2} = require("@uniswap/v3-periphery-optimism/artifacts-ovm/cont
 
 
 // Initialize your Ethereum provider and signer
-const deployerPrivateKey = "0xd3ed1548f90fc97b6ff1bd9f2211d8e56b07860dc1938998f12936de55ec36dd"
+const deployerPrivateKey = "PRIVATE_KEY"
 const provider = new ethers.providers.JsonRpcProvider('http://127.0.0.1:8545');
 const wallet = new ethers.Wallet(deployerPrivateKey, provider);
 
