@@ -1,0 +1,21 @@
+{
+  "name": "03_listen_4_pools",
+  "version": "1.0.0",
+  "description": "Swap Bot",
+  "main": "Run.js",
+  "scripts": {
+    "start": "node Run.js && exit 1"
+  },
+  "keywords": [
+    "Bot",
+    "Uniswap"
+  ],
+  "author": "PyCodeJunkie",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.2",
+    "@uniswap/v3-core-optimism": "^1.0.0-rc.0",
+    "@uniswap/v3-periphery-optimism": "^1.1.0-rc.1",
+    "ethers": "^5.7.2"
+  }
+}
